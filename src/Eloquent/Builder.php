@@ -14,7 +14,7 @@ class Builder extends Base
      * @param array|null $update
      * @return int
      */
-    public function upsert(array $values, $target, array $update = null)
+    public function upsert(array $values, $target, $update = null)
     {
         if (empty($values)) {
             return 0;
